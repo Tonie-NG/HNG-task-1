@@ -5,7 +5,7 @@ const router = require("express").Router();
 router.get("/", async (req, res) => {
     try {
         const details = {
-            "slackUsername": "Tonie", "backend": true, "age": 20, "bio": "I'm a Full Stack Software Developer and Technical writer focused on building and developing functional web-based software applications."
+            "slackUsername": "tonie", "backend": true, "age": 20, "bio": "I'm a Full Stack Software Developer and Technical writer focused on building and developing functional web-based software applications."
         }
       res.status(200).json(details);
     } catch (error) {
